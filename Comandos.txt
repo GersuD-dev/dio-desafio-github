@@ -1,0 +1,23 @@
+cd - acessar arquivo 
+dir - ver os arquivos e pastas que tem no repositorio
+ssh-keygen -t ed25519 -C email -> criar um ssh-keygen
+mkdir -> criar pasta
+echo > -> criar arquivo
+ls -> listar os arquivos
+cat id.ed25519.pub -> pegar conteúdo 
+pwd -> caminho completo
+eval $(ssh-agent -s) -> pegar a chave para o arquivo privado
+ssh-add id_ed25519 -> adicionar a chave
+git clone -> clonar o repositório para o local
+git init -> iniciar o git para poder gerenciar o repositorio
+ls -a -> ver pasta especifica do git
+git config --global -> CONFIGURAÇÃO INICIAL PARA COMEÇAR A UTILIZAR O GIT
+git config --global user.name GersonDuraes
+git status -> monitorar estados dos arquivos
+git status -a -> monitorar estados dos arquivos, incluindo os ocultos
+git add * -> adicionar tudo que foi adicionado no repositorio
+git config --global --unset user.name -> desvincular a configuração
+git remote add origin -> Adicionar origem do repositorio remoto no config local
+git remote -v -> listar repositorios cadastrados
+git push origin master -> enviar o repositorio local para o remoto
+git push origin main - enviar o repositorio local para o remoto
